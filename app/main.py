@@ -44,7 +44,7 @@ from backends.base import BackendError
 from downloader import DownloadManager
 
 UI_DIR = Path(__file__).resolve().parent / "ui"
-GITHUB_REPO = "angel-Xn/fnmedia-dl"
+GITHUB_REPO = "maglcal/fnmedia-dl"
 
 
 def _read_version() -> str:

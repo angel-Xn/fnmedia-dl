@@ -25,7 +25,7 @@ from pathlib import Path
 import httpx
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-GITHUB_REPO = "angel-Xn/fnmedia-dl"
+GITHUB_REPO = "maglcal/fnmedia-dl"
 DOWNLOAD_URL_PREFIX = f"https://github.com/{GITHUB_REPO}/releases/download/"
 
 # 替换白名单：随新版本整体替换。state/ 与 .venv/ 永不在列（凭据/任务记录/运行环境）。

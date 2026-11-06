@@ -159,7 +159,7 @@ class TestReplaceAndRollback(unittest.TestCase):
 class TestValidateUrl(unittest.TestCase):
     def test_valid(self):
         self.assertTrue(updater.validate_asset_url(
-            "https://github.com/angel-Xn/fnmedia-dl/releases/download/"
+            "https://github.com/maglcal/fnmedia-dl/releases/download/"
             "v0.1.14/fnmedia-dl-0.1.14.fpk"))
 
     def test_reject_other_host(self):
@@ -172,12 +172,12 @@ class TestValidateUrl(unittest.TestCase):
 
     def test_reject_non_fpk(self):
         self.assertFalse(updater.validate_asset_url(
-            "https://github.com/angel-Xn/fnmedia-dl/releases/download/"
+            "https://github.com/maglcal/fnmedia-dl/releases/download/"
             "v0.1.14/malware.exe"))
 
     def test_reject_traversal(self):
         self.assertFalse(updater.validate_asset_url(
-            "https://github.com/angel-Xn/fnmedia-dl/releases/download/"
+            "https://github.com/maglcal/fnmedia-dl/releases/download/"
             "v0.1.14/../../evil.fpk"))
 
     def test_reject_empty(self):

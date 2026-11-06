@@ -78,7 +78,7 @@ class TestAPI(unittest.TestCase):
         from unittest import mock
         payload = {
             "tag_name": "v9.9.9",
-            "html_url": "https://github.com/angel-Xn/fnmedia-dl/releases/tag/v9.9.9",
+            "html_url": "https://github.com/maglcal/fnmedia-dl/releases/tag/v9.9.9",
             "body": "更新说明",
             "assets": [{"name": "fnmedia-dl-9.9.9.fpk",
                         "browser_download_url": "https://x/a.fpk", "size": 12}],
